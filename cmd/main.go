@@ -1,7 +1,7 @@
 package main
 
 import (
-	"git.dmp.true.th/DMP-Public/zerolog-wrapper/logger"
+	"github.com/gambiegambo/zerolog-wrapper/logger"
 	"github.com/pkg/errors"
 )
 
