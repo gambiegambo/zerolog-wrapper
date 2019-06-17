@@ -62,11 +62,11 @@ func New(logLevel string) {
 		}
 
 		output.FormatFieldName = func(i interface{}) string {
-			return fmt.Sprintf("%s:", i)
+			return fmt.Sprintf("%s: ", i)
 		}
 
 		output.FormatErrFieldName = func(i interface{}) string {
-			return fmt.Sprintf("%s:", i)
+			return fmt.Sprintf("%s: ", i)
 		}
 
 		prettyConsoleLogger = zerolog.New(output).With().Caller().Timestamp().Logger()
