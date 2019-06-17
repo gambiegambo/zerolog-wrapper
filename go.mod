@@ -1,4 +1,4 @@
-module git.dmp.true.th/DMP-Public/zerolog-wrapper
+module github.com/gambiegambo/zerolog-wrapper
 
 go 1.12
 
